@@ -29,9 +29,13 @@ content = """
 <title>My webserver</title>
 </head>
 <body>
-<h1>Welcome</h1>
+<h1>Name: KADIN SAMSON</h1>
+<h2>REF NO: 21001514</h2>
+<h2>Dept:Artificial Intelligenece and Data science</h2>
 </body>
+
 </html>
+
 """
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
